@@ -10,12 +10,13 @@ header .container {
 }
 
 #profile {
+    display: flex;
     align-items: center;
     gap: 32px;
 }
 
 #profile > div {
-    max-width: 385px;
+    max-width: 384px;
 }
 
 #profile h1 {
