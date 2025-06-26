@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color-light: #991B1B;
+    --brand-color-dark: #7F1D1D;
+    --bg-color: #0C0C0C;
+    --stroke-color: #1F1F1F;
+    --text-color-primary: #FAFAFA; 
+    --text-color-secondary: #D1D5DB;
+}
+
 body {
-    background-color: red; 
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
 }
