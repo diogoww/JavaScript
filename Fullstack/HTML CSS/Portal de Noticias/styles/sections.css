@@ -12,12 +12,22 @@
             content: "";
             position: absolute;
             inset: 0;
-            top: 60%;
+            top: 80%;
             background: linear-gradient(
                 180deg,
                 transparent 0%,
                 #3d0b0b 100%
             );
+        }
+
+        figcaption {
+            position: absolute;
+            bottom: 0;
+            padding: 24px;
+
+            h2 {
+                margin-top: 8px;
+            }
         }
     }
 }
